@@ -1,0 +1,42 @@
+2023-03-31 14:53:24,121 - START
+2023-03-31 14:53:24,122 - Using selector: EpollSelector
+2023-03-31 14:53:24,122 - getListOfPluginDashboards
+2023-03-31 14:53:24,123 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,158 - http://localhost:3000 "GET /api/plugins/apica-opt-plugin/dashboards HTTP/1.1" 200 None
+2023-03-31 14:53:24,158 - found 11 plugin dashboards
+2023-03-31 14:53:24,158 - importDashboards
+2023-03-31 14:53:24,159 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,176 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 353
+2023-03-31 14:53:24,177 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaGroupsSLA.json - status: 200
+2023-03-31 14:53:24,177 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,197 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 368
+2023-03-31 14:53:24,197 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaGeoMapGroups.json - status: 200
+2023-03-31 14:53:24,198 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,218 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 432
+2023-03-31 14:53:24,219 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaBusinessExampleDashboard.json - status: 200
+2023-03-31 14:53:24,219 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,236 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 343
+2023-03-31 14:53:24,237 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaTagsSLA.json - status: 200
+2023-03-31 14:53:24,237 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,256 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 357
+2023-03-31 14:53:24,256 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaTagGeoMap.json - status: 200
+2023-03-31 14:53:24,257 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,278 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 368
+2023-03-31 14:53:24,279 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaCheckSummary.json - status: 200
+2023-03-31 14:53:24,279 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,298 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 484
+2023-03-31 14:53:24,298 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaDrillDownChecksAggregateWithTags.json - status: 200
+2023-03-31 14:53:24,299 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,316 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 412
+2023-03-31 14:53:24,317 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaAccountEventsInsight.json - status: 200
+2023-03-31 14:53:24,317 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,335 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 397
+2023-03-31 14:53:24,335 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaTagsEventsInsight.json - status: 200
+2023-03-31 14:53:24,336 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,352 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 402
+2023-03-31 14:53:24,353 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaChecksSummaryTable.json - status: 200
+2023-03-31 14:53:24,353 - Starting new HTTP connection (1): localhost:3000
+2023-03-31 14:53:24,371 - http://localhost:3000 "POST /api/dashboards/import HTTP/1.1" 200 450
+2023-03-31 14:53:24,372 - http://localhost:3000/api/dashboards/import - dashboard: dashboards/ApicaCheckSummaryStatuswithTags.json - status: 200
+2023-03-31 14:53:24,372 - It took 0.2506113052368164 seconds to get results
+2023-03-31 14:53:24,372 - END
